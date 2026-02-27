@@ -3,8 +3,8 @@
   <pyqgis_plugin name="Zajeciopas" version="0.0.1">
     <description>Przycinanie kabli do działek</description>
     <version>1.0.0</version>
-    <qgis_minimum_version>3.28</qgis_minimum_version>
-    <author>Twoje Imię</author>
+    <qgis_minimum_version>3.40</qgis_minimum_version>
+    <author>Krzysztof Bąkowski</author>
     <download_url>
       https://github.com/KrzBak/Zajeciopas2/blob/main/Zajeciopas.zip
     </download_url>
