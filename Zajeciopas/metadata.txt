@@ -1,0 +1,46 @@
+; czesc obowiazkowa, opisy powinny być po angielsku
+; więcej na: http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/plugins.html#plugin-metadata 
+; komentarze zaczynają się od średnika
+
+[general]
+name=Zajęciopas
+email=k.bakowski@fonditel.pl
+author= Krzysztof Bąkowski
+qgisMinimumVersion=3.40
+description=Narzędzie to ma ułatwić przygotowywanie
+	raportów na zajęcie pasa.
+	Będzie on samodzielnie obliczać 
+	długości jak i pola odcinków kabli
+	w zasięgu działek. Tak/Nie
+about=Przycina on kable do warstwy działek, następnie oblicza ich długość oraz pole
+version=version 0.1
+tracker=https://github.com/KrzBak/Zajeciopas/tree/main
+repository=http:https://github.com/KrzBak/Zajeciopas/tree/main
+
+; koniec części obowiązkowej
+
+
+; Początek części opcjonalnej, opisy powinny być po angielsku
+
+category=Pomoc przy raportach
+changelog=Lista wersji oraz jej poprzednich wersji:
+    0.1 - Pierwsza wersja treningowa
+
+; Tags (tagi lub słowa kluczowe) powinny być rozdzielane przecinkami, po angielsku
+tags=poligony, linie, zajęcie pasa
+
+; Następne metadane mogą pozostać puste.
+homepage=https://github.com/KrzBak/Zajeciopas/tree/main
+icon=icon.png
+
+; experimental flag (eksperymentalny: Stosuje się do aktualnie ładowanej wersji pluginu)
+experimental=True
+
+; deprecated flag (niezalecany - stosuje się do całego pluginu)
+deprecated=False
+
+; maksymalna wersja: jeżeli puste to będzie automatycznie qgisMinimumVersion  + .99
+; qgisMaximumVersion=3.99
+
+; przygotowanie ikony
+; pyrcc5 -o resources.py resources.qrc
