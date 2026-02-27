@@ -6,7 +6,7 @@
     <qgis_minimum_version>3.40</qgis_minimum_version>
     <author>Krzysztof Bąkowski</author>
     <download_url>
-      https://github.com/KrzBak/Zajeciopas2/blob/main/Zajeciopas.zip
+      https://raw.githubusercontent.com/KrzBak/Zajeciopas2/main/plugins.xml
     </download_url>
   </pyqgis_plugin>
 </plugins>
