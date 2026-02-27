@@ -6,7 +6,7 @@
     <qgis_minimum_version>3.28</qgis_minimum_version>
     <author>Twoje Imię</author>
     <download_url>
-      https://raw.githubusercontent.com/TWOJ_LOGIN/Zajeciopas/main/Zajeciopas.zip
+      https://github.com/KrzBak/Zajeciopas2/blob/main/Zajeciopas.zip
     </download_url>
   </pyqgis_plugin>
 </plugins>
